@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Album</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a href="index.html" class="logo">← Back</a>
+  </div>
+</header>
+
+<main class="container">
+
+<h1 id="title"></h1>
+<p id="band"></p>
+
+<div class="album-layout">
+  <div>
+    <img id="cover" class="cover">
+    <ol id="tracks"></ol>
+  </div>
+
+  <div>
+    <h2>Community Rating</h2>
+    <p id="average">No ratings yet</p>
+
+    <input type="number" id="userRating" min="0" max="20">
+    <button onclick="submitRating()">Submit</button>
+  </div>
+</div>
+
+</main>
+
+<script src="js/album.js"></script>
+</body>
+</html>

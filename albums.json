@@ -1,0 +1,23 @@
+{
+  "master-of-puppets": {
+    "band": "Metallica",
+    "title": "Master of Puppets",
+    "year": 1986,
+    "cover": "images/mop.jpg",
+    "tracks": [
+      {"title": "Battery", "time": "5:12"},
+      {"title": "Master of Puppets", "time": "8:36"}
+    ]
+  },
+
+  "blackwater-park": {
+    "band": "Opeth",
+    "title": "Blackwater Park",
+    "year": 2001,
+    "cover": "images/blackwater.jpg",
+    "tracks": [
+      {"title": "The Leper Affinity", "time": "10:23"},
+      {"title": "Bleak", "time": "9:15"}
+    ]
+  }
+}
