@@ -65,3 +65,22 @@ button {
   color: white;
   border: 1px solid #333;
 }
+
+.controls {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.controls input,
+.controls select {
+  padding: 0.6rem;
+  font-size: 1rem;
+  background: #111;
+  color: #fff;
+  border: 1px solid #333;
+}
+
+.controls input {
+  flex: 1;
+}
