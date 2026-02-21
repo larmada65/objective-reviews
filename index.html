@@ -15,6 +15,26 @@
   </div>
 </header>
 
+<div class="controls">
+  <input
+    type="text"
+    id="searchInput"
+    placeholder="Search band or album..."
+  />
+
+  <select id="genreFilter">
+    <option value="all">All Genres</option>
+  </select>
+
+  <select id="sortBy">
+    <option value="default">Sort By</option>
+    <option value="year-desc">Newest First</option>
+    <option value="year-asc">Oldest First</option>
+    <option value="rating-desc">Highest Rated</option>
+    <option value="rating-asc">Lowest Rated</option>
+  </select>
+</div>
+
 <main class="container">
   <h1>Albums</h1>
   <div id="albumGrid" class="grid"></div>
