@@ -40,6 +40,13 @@
   <div id="albumGrid" class="grid"></div>
 </main>
 
+<form id="createBandForm">
+  <input type="text" id="bandName" placeholder="Band Name" required />
+  <textarea id="bandBio" placeholder="Band Bio"></textarea>
+  <input type="file" id="bandImage" accept="image/*" />
+  <button type="submit">Create Band</button>
+</form>
+
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
 <script src="js/main.js"></script>
 </body>
