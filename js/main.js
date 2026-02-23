@@ -1,3 +1,8 @@
+const supabase = window.supabase.createClient(
+  "YOUR_PROJECT_URL",
+  "YOUR_PUBLIC_ANON_KEY"
+);
+
 fetch("albums.json")
   let allAlbums = [];
   
